@@ -33,3 +33,22 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+// memory management
+//stack(primitive)    heap (non-primitive)
+let myname = "ujwal"
+anothername  = myname
+anothername = "UJWAL"
+console.log(myname);
+console.log(anothername);
+
+let user1 = {
+    email: "ujwal@google.com"
+}
+let user2 = user1
+
+user2.email= "pandey@google.com"
+console.log(user1.email);
+console.log(user2.email);
+
+
+
